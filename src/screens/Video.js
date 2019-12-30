@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Video } from 'grommet';
+import { Video } from 'mnet-ui-base';
 import { CirclePlay } from 'grommet-icons';
-import { doc, themeDoc } from 'grommet/components/Video/doc';
+import { doc, themeDoc } from 'mnet-ui-base/components/Video/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

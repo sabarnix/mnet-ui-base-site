@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Grommet } from 'grommet';
+import { Grommet } from 'mnet-ui-base';
 import { Grommet as GrommetIcon } from 'grommet-icons';
-import { doc, themeDoc } from 'grommet/components/Grommet/doc';
+import { doc, themeDoc } from 'mnet-ui-base/components/Grommet/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

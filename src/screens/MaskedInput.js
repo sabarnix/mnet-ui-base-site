@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { MaskedInput } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/MaskedInput/doc';
+import { MaskedInput } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/MaskedInput/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

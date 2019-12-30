@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box } from 'grommet';
+import { Box } from 'mnet-ui-base';
 
 const Section = ({ children, width, background, pad }) => (
   <Box align="center" background={background} pad={pad || 'large'}>

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Main } from 'grommet';
-import { doc } from 'grommet/components/Main/doc';
+import { Main } from 'mnet-ui-base';
+import { doc } from 'mnet-ui-base/components/Main/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

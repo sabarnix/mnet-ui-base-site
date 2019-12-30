@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Anchor } from 'grommet';
+import { Anchor } from 'mnet-ui-base';
 import { RouterContext } from '../Router';
 
 const RoutedAnchor = ({ icon, label, path, target }) => {

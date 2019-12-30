@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, ThemeContext } from 'grommet';
+import { Box, ThemeContext } from 'mnet-ui-base';
 import Item from './Item';
 
 const ACCENT_REGEXP = /^accent-/i;

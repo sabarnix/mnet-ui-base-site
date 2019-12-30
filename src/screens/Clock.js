@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Clock } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Clock/doc';
+import { Clock } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Clock/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

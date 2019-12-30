@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
-import { Anchor, Box, Grid, Heading } from 'grommet';
+import { Anchor, Box, Grid, Heading } from 'mnet-ui-base';
 import { Link as LinkIcon } from 'grommet-icons';
 
 const Section = forwardRef(({ children, index, name }, ref) => (

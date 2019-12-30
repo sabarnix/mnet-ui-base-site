@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Box, Menu } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Menu/doc';
+import { Box, Menu } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Menu/doc';
 
 import { More } from 'grommet-icons';
 

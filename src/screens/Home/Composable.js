@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from 'grommet';
+import { Box, Text } from 'mnet-ui-base';
 import { Action, Add, Edit, Trash } from 'grommet-icons';
 import Tile from './Tile';
 

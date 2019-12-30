@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Box, Calendar } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Calendar/doc';
+import { Box, Calendar } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Calendar/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

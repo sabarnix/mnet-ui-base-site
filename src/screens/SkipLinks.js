@@ -7,8 +7,8 @@ import {
   SkipLink,
   SkipLinks,
   Heading,
-} from 'grommet';
-import { doc } from 'grommet/components/SkipLinks/doc';
+} from 'mnet-ui-base';
+import { doc } from 'mnet-ui-base/components/SkipLinks/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

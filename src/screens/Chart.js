@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Chart } from 'grommet';
-import { doc, docCalcs, themeDoc } from 'grommet/components/Chart/doc';
+import { Chart } from 'mnet-ui-base';
+import { doc, docCalcs, themeDoc } from 'mnet-ui-base/components/Chart/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';
@@ -34,7 +34,12 @@ export default () => (
 />`}
       syntaxes={{
         ...genericSyntaxes,
-        bounds: [[[0, 10], [0, 100]]],
+        bounds: [
+          [
+            [0, 10],
+            [0, 100],
+          ],
+        ],
         color: [
           'accent-1',
           { color: 'accent-1', opacity: true },
@@ -88,7 +93,10 @@ export const ChartItem = ({ name, path }) => (
   <Item name={name} path={path} center>
     <Chart
       aria-label="Chart example"
-      bounds={[[0, 4], [0, 10]]}
+      bounds={[
+        [0, 4],
+        [0, 10],
+      ]}
       size={{ width: 'small', height: 'xsmall' }}
       round
       color="brand"

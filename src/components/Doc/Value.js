@@ -1,6 +1,6 @@
 import React from 'react';
 import stringify from 'json-stringify-pretty-compact';
-import { Box } from 'grommet';
+import { Box } from 'mnet-ui-base';
 
 const Values = ({ name, values, defaultValue }) => {
   let content = (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Image } from 'grommet';
+import { Box, Image } from 'mnet-ui-base';
 import Header from '../../components/Header';
 import Section from './Section';
 import Message from './Message';

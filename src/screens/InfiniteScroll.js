@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { InfiniteScroll } from 'grommet';
+import { InfiniteScroll } from 'mnet-ui-base';
 import { Descend } from 'grommet-icons';
-import { doc } from 'grommet/components/InfiniteScroll/doc';
+import { doc } from 'mnet-ui-base/components/InfiniteScroll/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

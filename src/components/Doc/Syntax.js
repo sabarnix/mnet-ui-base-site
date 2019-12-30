@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import stringify from 'json-stringify-pretty-compact';
-import { Box, Text } from 'grommet';
+import { Box, Text } from 'mnet-ui-base';
 
 export const Syntax = ({ syntax, format, defaultValue, leaf }) => {
   if (!leaf && Array.isArray(syntax)) {

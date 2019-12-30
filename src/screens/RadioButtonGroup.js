@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { RadioButtonGroup } from 'grommet';
-import { doc } from 'grommet/components/RadioButtonGroup/doc';
+import { RadioButtonGroup } from 'mnet-ui-base';
+import { doc } from 'mnet-ui-base/components/RadioButtonGroup/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

@@ -8,19 +8,19 @@ import {
   TableFooter,
   TableHeader,
   TableRow,
-} from 'grommet';
+} from 'mnet-ui-base';
 import {
   doc as docTable,
   themeDoc as themeDocTable,
-} from 'grommet/components/Table/doc';
-import { doc as docTableBody } from 'grommet/components/TableBody/doc';
+} from 'mnet-ui-base/components/Table/doc';
+import { doc as docTableBody } from 'mnet-ui-base/components/TableBody/doc';
 import {
   doc as docTableCell,
   themeDoc as themeDocTableCell,
-} from 'grommet/components/TableCell/doc';
-import { doc as docTableFooter } from 'grommet/components/TableFooter/doc';
-import { doc as docTableHeader } from 'grommet/components/TableHeader/doc';
-import { doc as docTableRow } from 'grommet/components/TableRow/doc';
+} from 'mnet-ui-base/components/TableCell/doc';
+import { doc as docTableFooter } from 'mnet-ui-base/components/TableFooter/doc';
+import { doc as docTableHeader } from 'mnet-ui-base/components/TableHeader/doc';
+import { doc as docTableRow } from 'mnet-ui-base/components/TableRow/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

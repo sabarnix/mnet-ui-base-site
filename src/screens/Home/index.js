@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Anchor, Box, Image, Paragraph, Text } from 'grommet';
+import { Anchor, Box, Image, Paragraph, Text } from 'mnet-ui-base';
 import { Github, Slack, Twitter } from 'grommet-icons';
 import Nav from '../../components/Nav';
 import Header from '../../components/Header';

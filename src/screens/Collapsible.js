@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Collapsible } from 'grommet';
+import { Collapsible } from 'mnet-ui-base';
 import { Shift } from 'grommet-icons';
-import { doc, themeDoc } from 'grommet/components/Collapsible/doc';
+import { doc, themeDoc } from 'mnet-ui-base/components/Collapsible/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

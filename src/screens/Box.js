@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Box/doc';
+import { Box } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Box/doc';
 import Page from '../components/Page';
 import Doc from '../components/Doc';
 import { genericSyntaxes } from '../utils/props';

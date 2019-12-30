@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { TextArea } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/TextArea/doc';
+import { TextArea } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/TextArea/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

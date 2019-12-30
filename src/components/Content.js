@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
-// import { Box, Text } from 'grommet';
+// import { Box, Text } from 'mnet-ui-base';
 import { Route, Routes } from '../Router';
 
 import Accordion from '../screens/Accordion';
@@ -30,7 +30,7 @@ import Grid from '../screens/Grid';
 import Grommet from '../screens/Grommet';
 import Header from '../screens/Header';
 import Heading from '../screens/Heading';
-import Home from '../screens/Home';
+// import Home from '../screens/Home';
 import Image from '../screens/Image';
 import InfiniteScroll from '../screens/InfiniteScroll';
 import Keyboard from '../screens/Keyboard';
@@ -112,14 +112,14 @@ import Resources from '../screens/Docs/Resources';
 
 export default () => (
   <Routes notFoundRedirect="/">
-    <Route exact path="/" component={Home} />
+    {/* <Route exact path="/" component={Home} /> */}
 
     <Route exact path="/play" component={Play} />
     <Route exact path="/theme" component={Try} />
     <Route exact path="/try" component={Try} />
     <Route exact path="/start" component={Use} />
     <Route exact path="/use" component={Use} />
-    <Route exact path="/components" component={Components} />
+    <Route exact path="/" component={Components} />
     <Route exact path="/docs" component={Docs} />
 
     <Route exact path="/about" component={About} />

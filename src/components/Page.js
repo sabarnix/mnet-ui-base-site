@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'grommet';
+import { Box } from 'mnet-ui-base';
 import Nav from './Nav';
 
 const Page = ({ children, background }) => (

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Accordion, AccordionPanel, Box } from 'grommet';
-import { doc as docAccordion } from 'grommet/components/Accordion/doc';
+import { Accordion, AccordionPanel, Box } from 'mnet-ui-base';
+import { doc as docAccordion } from 'mnet-ui-base/components/Accordion/doc';
 import {
   doc as docAccordionPanel,
   themeDoc,
-} from 'grommet/components/AccordionPanel/doc';
+} from 'mnet-ui-base/components/AccordionPanel/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

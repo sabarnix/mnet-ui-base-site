@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Box, Carousel } from 'grommet';
+import { Box, Carousel } from 'mnet-ui-base';
 import { Next, Previous } from 'grommet-icons';
-import { doc, themeDoc } from 'grommet/components/Carousel/doc';
+import { doc, themeDoc } from 'mnet-ui-base/components/Carousel/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

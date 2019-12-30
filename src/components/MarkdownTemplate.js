@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Markdown } from 'grommet';
+import { Box, Markdown } from 'mnet-ui-base';
 
 const MarkdownTemplate = ({ children, desc, name }) => {
   const content = `

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Text } from 'grommet';
-import { ThemeContext } from 'grommet/contexts';
+import { Box, Text } from 'mnet-ui-base';
+import { ThemeContext } from 'mnet-ui-base/contexts';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

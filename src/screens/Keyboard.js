@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Box, Keyboard } from 'grommet';
+import { Box, Keyboard } from 'mnet-ui-base';
 import { Add } from 'grommet-icons';
-import { doc } from 'grommet/components/Keyboard/doc';
+import { doc } from 'mnet-ui-base/components/Keyboard/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

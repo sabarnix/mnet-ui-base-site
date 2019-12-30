@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { ThemeContext } from 'grommet/contexts';
+import { ThemeContext } from 'mnet-ui-base/contexts';
 import { Paint } from 'grommet-icons';
-import { doc } from 'grommet/contexts/ThemeContext/doc';
+import { doc } from 'mnet-ui-base/contexts/ThemeContext/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

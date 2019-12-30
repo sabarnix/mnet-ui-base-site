@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Box, Tabs, Tab, Text } from 'grommet';
+import { Box, Tabs, Tab, Text } from 'mnet-ui-base';
 import {
   doc as docTabs,
   themeDoc as themeDocTabs,
-} from 'grommet/components/Tabs/doc';
+} from 'mnet-ui-base/components/Tabs/doc';
 import {
   doc as docTab,
   themeDoc as themeDocTab,
-} from 'grommet/components/Tab/doc';
+} from 'mnet-ui-base/components/Tab/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

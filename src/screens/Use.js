@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Anchor, Box, Heading, Markdown, Text } from 'grommet';
+import { Anchor, Box, Heading, Markdown, Text } from 'mnet-ui-base';
 import Page from '../components/Page';
 import Header from '../components/Header';
 

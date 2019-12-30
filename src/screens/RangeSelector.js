@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Box, RangeSelector, Stack, Text } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/RangeSelector/doc';
+import { Box, RangeSelector, Stack, Text } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/RangeSelector/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

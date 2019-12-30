@@ -145,7 +145,7 @@ export default class Components extends Component {
       <Page>
         <Header
           label="Components"
-          summary="These are the building blocks of the grommet library, master them,
+          summary="These are the building blocks of the Base UI library, master them,
               and become a l33t."
         />
 

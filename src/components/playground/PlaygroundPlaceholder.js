@@ -1,7 +1,7 @@
 import React from 'react';
 import { withLive } from 'react-live';
 
-import { Box, Heading } from 'grommet';
+import { Box, Heading } from 'mnet-ui-base';
 import { Gremlin } from '../Gremlin';
 
 const PlaygroundPlaceholder = withLive(({ error }) => {

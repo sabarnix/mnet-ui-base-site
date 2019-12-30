@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Anchor, Box, Layer, Paragraph, Text } from 'grommet';
+import { Anchor, Box, Layer, Paragraph, Text } from 'mnet-ui-base';
 import { Next, Previous } from 'grommet-icons';
 import { nameToPath, nextComponent, previousComponent } from '../../structure';
 import Header from '../Header';

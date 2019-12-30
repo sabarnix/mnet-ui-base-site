@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Box } from 'grommet';
+import { Box } from 'mnet-ui-base';
 import { MarkdownTemplate } from '../../components/MarkdownTemplate';
 import Page from '../../components/Page';
 
@@ -12,7 +12,7 @@ A function that recieves two theme objects and returns a theme object that inclu
 In case different styling are found for the same components on the two themes, the second argument theme will determine the styling. 
 
 \`\`\`
-import { deepMerge } from 'grommet/utils';
+import { deepMerge } from 'mnet-ui-base/utils';
 
 const myCustomTheme = deepMerge(grommet, {
   global: {

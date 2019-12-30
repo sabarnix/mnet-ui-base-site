@@ -1,8 +1,6 @@
 import React from 'react';
-import { Box, Text, ResponsiveContext } from 'grommet';
-import { Grommet as GrommetIcon } from 'grommet-icons';
+import { Box, Text, ResponsiveContext, Image } from 'mnet-ui-base';
 import RoutedAnchor from './RoutedAnchor';
-import RoutedButton from './RoutedButton';
 import Search from './Search';
 
 export default () => {
@@ -20,23 +18,10 @@ export default () => {
     >
       <RoutedAnchor
         path="/"
-        icon={<GrommetIcon size="large" />}
-        label={size !== 'small' && <Text size="xlarge">grommet</Text>}
+        icon={<Image src="/img/logos/mnetb.svg" />}
+        label={size !== 'small' && <Text size="xlarge">BASE UI</Text>}
       />
       <Box direction="row" gap="small">
-        {!searchOpen && (
-          <RoutedButton path="/components" plain>
-            {({ hover }) => (
-              <Box
-                pad={{ vertical: 'small', horizontal: 'medium' }}
-                round="xlarge"
-                background={hover ? 'active' : 'accent-1'}
-              >
-                <Text>components</Text>
-              </Box>
-            )}
-          </RoutedButton>
-        )}
         <Search open={searchOpen} setOpen={value => setSearchOpen(value)} />
       </Box>
     </Box>

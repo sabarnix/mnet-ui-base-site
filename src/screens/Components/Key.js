@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Text } from 'grommet';
+import { Box, Text } from 'mnet-ui-base';
 
 const Key = ({ label }) => (
   <Box border={{ color: 'brand', size: 'medium' }} round="medium" pad="medium">

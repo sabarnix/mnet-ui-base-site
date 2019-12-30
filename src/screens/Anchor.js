@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Anchor } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Anchor/doc';
+import { Anchor } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Anchor/doc';
 
 import { Edit } from 'grommet-icons';
 

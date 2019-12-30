@@ -8,7 +8,7 @@ import {
   Text,
   Paragraph,
   ResponsiveContext,
-} from 'grommet';
+} from 'mnet-ui-base';
 import { Next } from 'grommet-icons';
 
 import Header from '../../components/Header';

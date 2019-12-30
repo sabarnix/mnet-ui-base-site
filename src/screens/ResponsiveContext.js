@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Box } from 'grommet';
-import { ResponsiveContext } from 'grommet/contexts';
-import { doc, themeDoc } from 'grommet/contexts/ResponsiveContext/doc';
+import { Box } from 'mnet-ui-base';
+import { ResponsiveContext } from 'mnet-ui-base/contexts';
+import { doc, themeDoc } from 'mnet-ui-base/contexts/ResponsiveContext/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

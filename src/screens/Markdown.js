@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Markdown } from 'grommet';
-import { doc } from 'grommet/components/Markdown/doc';
+import { Markdown } from 'mnet-ui-base';
+import { doc } from 'mnet-ui-base/components/Markdown/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

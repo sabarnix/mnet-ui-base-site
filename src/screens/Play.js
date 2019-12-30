@@ -3,10 +3,10 @@ import styled, { css } from 'styled-components';
 import MonacoEditor from 'react-monaco-editor';
 /* eslint-disable import/no-duplicates */
 import * as Icons from 'grommet-icons';
-import * as Grommet from 'grommet';
-import * as Themes from 'grommet/themes';
+import * as Grommet from 'mnet-ui-base';
+import * as Themes from 'mnet-ui-base/themes';
 
-import { Box, Select } from 'grommet';
+import { Box, Select } from 'mnet-ui-base';
 import { Previous } from 'grommet-icons';
 /* eslint-enable import/no-duplicates */
 

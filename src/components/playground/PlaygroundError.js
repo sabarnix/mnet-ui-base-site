@@ -1,7 +1,7 @@
 import React from 'react';
 import { withLive } from 'react-live';
 
-import { Box, Text } from 'grommet';
+import { Box, Text } from 'mnet-ui-base';
 
 const PlaygroundError = withLive(({ error }) => {
   if (!error) {

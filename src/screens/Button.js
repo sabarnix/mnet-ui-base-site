@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Button } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/Button/doc';
+import { Button } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/Button/doc';
 
 import { Close, Edit } from 'grommet-icons';
 

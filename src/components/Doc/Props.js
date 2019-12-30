@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Anchor, Heading, Text } from 'grommet';
+import { Box, Anchor, Heading, Text } from 'mnet-ui-base';
 import { Link as LinkIcon } from 'grommet-icons';
 import { genericSyntaxes } from '../../utils/props';
 import { Prop } from './Prop';

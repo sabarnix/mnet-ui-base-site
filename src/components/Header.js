@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Heading, Markdown, Paragraph } from 'grommet';
+import { Box, Heading, Markdown, Paragraph } from 'mnet-ui-base';
 
 const CenteredParagraph = () => <Paragraph textAlign="center" />;
 

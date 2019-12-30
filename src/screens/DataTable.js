@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Box, DataTable } from 'grommet';
-import { doc } from 'grommet/components/DataTable/doc';
+import { Box, DataTable } from 'mnet-ui-base';
+import { doc } from 'mnet-ui-base/components/DataTable/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

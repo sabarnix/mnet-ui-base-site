@@ -1,13 +1,13 @@
 {
-  "name": "grommet-site",
+  "name": "mnet-ui-base-site",
   "version": "0.1.0",
   "main": "src/index.js",
-  "description": "Site for Grommet v2",
-  "homepage": "https://v2.grommet.io",
-  "bugs": "https://github.com/grommet/grommet-site/issues",
+  "description": "Site for Mnet-UI-Base",
+  "homepage": "https://mnet-ui-base.netlify.com/",
+  "bugs": "https://github.com/sabarnix/mnet-ui-base-site/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grommet/grommet-site.git"
+    "url": "https://github.com/sabarnix/mnet-ui-base-site.git"
   },
   "license": "Apache-2.0",
   "engine-strict": true,
@@ -16,7 +16,6 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "release-heroku": "babel-node --presets @babel/preset-env ./tools/release-heroku.js",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
@@ -25,16 +24,11 @@
   },
   "dependencies": {
     "core-js": "^3.1.4",
-    "grommet": "^2.9.0",
     "grommet-icons": "^4.0.0",
     "grommet-styles": "^0.2.0",
-    "grommet-theme-aruba": "^0.1.2",
-    "grommet-theme-dxc": "^0.1.2",
-    "grommet-theme-hp": "^0.1.2",
-    "grommet-theme-hpe": "^0.4.2",
-    "grommet-theme-v1": "^0.1.2",
     "json-stringify-pretty-compact": "^2.0.0",
     "lz-string": "^1.4.4",
+    "mnet-ui-base": "sabarnix/mnet-ui-base#release",
     "offline-plugin": "^5.0.3",
     "prop-types": "^15.5.10",
     "react": "^16.8.0",

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Heading } from 'grommet';
+import { Box, Heading } from 'mnet-ui-base';
 import RoutedButton from '../../components/RoutedButton';
 
 const Item = ({ align, center, justify, name, pad, path, children }) => (

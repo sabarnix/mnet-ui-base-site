@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { WorldMap } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/WorldMap/doc';
+import { WorldMap } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/WorldMap/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

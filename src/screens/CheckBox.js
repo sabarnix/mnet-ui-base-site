@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { CheckBox } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/CheckBox/doc';
+import { CheckBox } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/CheckBox/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Box, Heading, TextInput } from 'grommet';
-import { doc, themeDoc } from 'grommet/components/TextInput/doc';
+import { Box, Heading, TextInput } from 'mnet-ui-base';
+import { doc, themeDoc } from 'mnet-ui-base/components/TextInput/doc';
 
 import Page from '../components/Page';
 import Doc from '../components/Doc';

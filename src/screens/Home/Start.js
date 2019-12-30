@@ -5,9 +5,9 @@ import { LiveProvider, LivePreview } from 'react-live';
 import MonacoEditor from 'react-monaco-editor';
 /* eslint-disable import/no-duplicates */
 import * as Icons from 'grommet-icons';
-import * as Grommet from 'grommet';
-import * as Themes from 'grommet/themes';
-import { Anchor, Box, Heading, Text } from 'grommet';
+import * as Grommet from 'mnet-ui-base';
+import * as Themes from 'mnet-ui-base/themes';
+import { Anchor, Box, Heading, Text } from 'mnet-ui-base';
 import { Next, Share } from 'grommet-icons';
 /* eslint-enable import/no-duplicates */
 import Header from '../../components/Header';

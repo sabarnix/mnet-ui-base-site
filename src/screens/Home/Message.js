@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, Heading, Image, Paragraph } from 'grommet';
+import { Box, Heading, Image, Paragraph } from 'mnet-ui-base';
 
 const Message = ({ imageSrc, name, summary }) => (
   <Box basis="medium" align="center">
