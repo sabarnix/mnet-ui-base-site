@@ -1,7 +1,7 @@
 {
-  "name": "grommet.io",
-  "short_name": "Grommet",
-  "theme_color": "#865CD6",
+  "name": "mnet-base-ui",
+  "short_name": "BASE UI",
+  "theme_color": "#EB5B5B",
   "background_color": "#FFD6D6",
   "display": "fullscreen",
   "Scope": "/",

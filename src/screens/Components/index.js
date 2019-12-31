@@ -122,7 +122,7 @@ export default class Components extends Component {
   }
 
   componentDidMount() {
-    document.title = 'Components - Grommet';
+    document.title = 'Components - MNET-BASE-UI';
     this.scrollToSection();
   }
 

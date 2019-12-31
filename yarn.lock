@@ -6924,7 +6924,7 @@ mkdirp@^0.5.1, mkdirp@~0.5.1:
 
 mnet-ui-base@sabarnix/mnet-ui-base#release:
   version "0.0.1"
-  resolved "https://codeload.github.com/sabarnix/mnet-ui-base/tar.gz/1bf1451de655f50d67711a853f2cfa30b09c3933"
+  resolved "https://codeload.github.com/sabarnix/mnet-ui-base/tar.gz/4dff80fbf8b03b80408fb271a78832aad6acf057"
   dependencies:
     "@testing-library/dom" "^6.1.0"
     "@testing-library/jest-dom" "^4.2.4"

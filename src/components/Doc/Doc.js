@@ -27,7 +27,7 @@ const Doc = ({
 }) => {
   React.useEffect(() => {
     if (nav) {
-      document.title = `${title || name} - Grommet`;
+      document.title = `${title || name} - MNET BASE UI`;
       window.scrollTo(0, 0);
     }
   }, [name, nav, title]);
