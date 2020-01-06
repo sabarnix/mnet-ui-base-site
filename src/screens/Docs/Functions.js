@@ -8,8 +8,8 @@ const children = `
 
 ### deepMerge
 A function that recieves two theme objects and returns a theme object that includes
-          both theme values. 
-In case different styling are found for the same components on the two themes, the second argument theme will determine the styling. 
+          both theme values.
+In case different styling are found for the same components on the two themes, the second argument theme will determine the styling.
 
 \`\`\`
 import { deepMerge } from 'mnet-ui-base/utils';
@@ -23,7 +23,7 @@ const myCustomTheme = deepMerge(grommet, {
 });
 
 const CustomPrimaryButton = () => (
-  <Grommet theme={myCustomTheme}>
+  <MnetUIBase theme={myCustomTheme}>
     <Box align="center" pad="large" gap="small">
       <Button primary label="deepMerge custom button" onClick={() => {}} />
     </Box>
@@ -31,7 +31,7 @@ const CustomPrimaryButton = () => (
       The Button font is taken from the grommet theme, while its
       primary color is taken from myCustomTheme.
     </Text>
-  </Grommet>
+  </MnetUIBase>
 );
 \`\`\`
 

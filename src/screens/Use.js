@@ -24,7 +24,7 @@ Item.propTypes = {
 
 export default class Use extends Component {
   componentDidMount() {
-    document.title = 'Use - Grommet';
+    document.title = 'Use - MnetUIBase';
   }
 
   render() {

@@ -18,7 +18,7 @@ export { FooterItem } from '../Footer';
 export { FormItem } from '../Form';
 export { FormFieldItem } from '../FormField';
 export { GridItem } from '../Grid';
-export { GrommetItem } from '../Grommet';
+export { MnetUIBaseItem } from '../MnetUIBase';
 export { HeaderItem } from '../Header';
 export { HeadingItem } from '../Heading';
 export { ImageItem } from '../Image';

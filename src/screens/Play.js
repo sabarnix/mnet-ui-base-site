@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import MonacoEditor from 'react-monaco-editor';
 /* eslint-disable import/no-duplicates */
 import * as Icons from 'grommet-icons';
-import * as Grommet from 'mnet-ui-base';
+import * as MnetUIBase from 'mnet-ui-base';
 import * as Themes from 'mnet-ui-base/themes';
 
 import { Box, Select } from 'mnet-ui-base';
@@ -27,7 +27,7 @@ const StyledPreview = styled(Box)`
 `;
 
 const scope = {
-  ...Grommet,
+  ...MnetUIBase,
   Icons,
   Themes,
   styled,
@@ -52,7 +52,7 @@ const Play = () => {
   const [code, setCode] = React.useState(PlaygroundExamples.HelloWorld);
 
   React.useEffect(() => {
-    document.title = 'Play - Grommet';
+    document.title = 'Play - MnetUIBase';
   }, []);
 
   return (

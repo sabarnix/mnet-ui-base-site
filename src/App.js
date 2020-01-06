@@ -1,6 +1,6 @@
 import React from 'react';
 import URLSearchParams from 'url-search-params';
-import { Grommet } from 'mnet-ui-base';
+import { MnetUIBase } from 'mnet-ui-base';
 import { mnet, dark } from 'mnet-ui-base/themes';
 import { Router } from './Router';
 import Analytics from './components/Analytics';
@@ -29,9 +29,9 @@ export default () => {
   return (
     <Router search={search}>
       <Analytics>
-        <Grommet theme={THEMES[themeName || 'mnet']}>
+        <MnetUIBase theme={THEMES[themeName || 'mnet']}>
           <Content />
-        </Grommet>
+        </MnetUIBase>
       </Analytics>
     </Router>
   );

@@ -167,13 +167,13 @@ const Body = () => (
 );
 
 const App = () => (
-  <Grommet theme={myTheme} full={true}>
+  <MnetUIBase theme={myTheme} full={true}>
     <Box fill={true}>
       <Header />
       <Body />
       <Footer />
     </Box>
-  </Grommet>
+  </MnetUIBase>
 );
 
 render(<App />);

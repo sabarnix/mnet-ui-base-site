@@ -8,12 +8,12 @@ import { Refresh } from 'grommet-icons';
 import { LiveError, LiveProvider, LivePreview } from 'react-live';
 import MonacoEditor from 'react-monaco-editor';
 import * as Icons from 'grommet-icons';
-import * as Grommet from 'mnet-ui-base';
+import * as MnetUIBase from 'mnet-ui-base';
 import * as Themes from 'mnet-ui-base/themes';
 /* eslint-enable import/no-duplicates */
 
 const scope = {
-  ...Grommet,
+  ...MnetUIBase,
   Icons,
   Themes,
   styled,

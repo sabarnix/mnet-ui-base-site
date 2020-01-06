@@ -64,7 +64,7 @@ export const structure = {
       components: [
         'AnnounceContext',
         'Collapsible',
-        'Grommet',
+        'MnetUIBase',
         'InfiniteScroll',
         'Keyboard',
         'ResponsiveContext',

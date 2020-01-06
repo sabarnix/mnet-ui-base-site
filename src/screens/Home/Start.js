@@ -5,7 +5,7 @@ import { LiveProvider, LivePreview } from 'react-live';
 import MonacoEditor from 'react-monaco-editor';
 /* eslint-disable import/no-duplicates */
 import * as Icons from 'grommet-icons';
-import * as Grommet from 'mnet-ui-base';
+import * as MnetUIBase from 'mnet-ui-base';
 import * as Themes from 'mnet-ui-base/themes';
 import { Anchor, Box, Heading, Text } from 'mnet-ui-base';
 import { Next, Share } from 'grommet-icons';
@@ -15,7 +15,7 @@ import RoutedAnchor from '../../components/RoutedAnchor';
 import Section from './Section';
 
 const scope = {
-  ...Grommet,
+  ...MnetUIBase,
   Icons,
   Themes,
   styled,
@@ -42,15 +42,15 @@ Dot.propTypes = {
 
 export default () => {
   const [code, setCode] = React.useState(`const App = props => (
-  <Grommet theme={grommet}>
+  <MnetUIBase theme={mnet}>
     <Box align="center" background="neutral-2">
       <Button
         label="hello world"
-        primary 
+        primary
         onClick={() => alert('hello, world')}
       />
     </Box>
-  </Grommet>
+  </MnetUIBase>
 );
 
 render(<App />);

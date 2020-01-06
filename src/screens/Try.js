@@ -5,7 +5,7 @@ import {
   Box,
   Button,
   FormField,
-  Grommet,
+  MnetUIBase,
   Heading,
   Image,
   Paragraph,
@@ -116,7 +116,7 @@ export default class Try extends Component {
   componentDidMount() {
     const { font } = this.state;
     this.onChangeFont({ target: { value: font } });
-    document.title = 'Try - Grommet';
+    document.title = 'Try - MnetUIBase';
   }
 
   onChangeColor = event => {
@@ -252,7 +252,7 @@ export default class Try extends Component {
               <strong>Try us without writing a single line of code</strong>
             </Heading>
             <Paragraph size="large">
-              Learn more about how you can theme using the grommet library.
+              Learn more about how you can theme using the MnetUIBase library.
             </Paragraph>
 
             <form onSubmit={this.onDownload}>
@@ -332,7 +332,7 @@ export default class Try extends Component {
               <Box pad="large" round="full" background="brand" />
               <Box pad="large" round="full" background="brand" />
             </Box>
-            <Grommet
+            <MnetUIBase
               key={key}
               theme={theme}
               style={{ position: 'relative', zIndex: 10 }}
@@ -374,7 +374,7 @@ export default class Try extends Component {
                   </Box>
                 </Box>
               </Box>
-            </Grommet>
+            </MnetUIBase>
             <Box
               justify="center"
               gap="medium"

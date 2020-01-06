@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Grommet } from 'mnet-ui-base';
+import { Button, MnetUIBase } from 'mnet-ui-base';
 import Tile from './Tile';
 
 export default () => {
@@ -117,15 +117,15 @@ export default () => {
       }
       gap="medium"
     >
-      <Grommet theme={theme1}>
+      <MnetUIBase theme={theme1}>
         <Button label="Log in" />
-      </Grommet>
-      <Grommet theme={theme2}>
+      </MnetUIBase>
+      <MnetUIBase theme={theme2}>
         <Button label="GET STARTED" />
-      </Grommet>
-      <Grommet theme={theme3}>
+      </MnetUIBase>
+      <MnetUIBase theme={theme3}>
         <Button label="click me" />
-      </Grommet>
+      </MnetUIBase>
     </Tile>
   );
 };

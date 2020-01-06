@@ -17,7 +17,7 @@ import { nameToPath } from '../../structure';
 
 export default class Home extends Component {
   componentDidMount() {
-    document.title = 'Grommet';
+    document.title = 'MnetUIBase';
   }
 
   render() {
