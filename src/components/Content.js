@@ -145,7 +145,7 @@ export default () => (
     <Route exact path="/form" component={Form} />
     <Route exact path="/formfield" component={FormField} />
     <Route exact path="/grid" component={Grid} />
-    <Route exact path="/MnetUIBase" component={MnetUIBase} />
+    <Route exact path="/mnetuibase" component={MnetUIBase} />
     <Route exact path="/header" component={Header} />
     <Route exact path="/heading" component={Heading} />
     <Route exact path="/image" component={Image} />
